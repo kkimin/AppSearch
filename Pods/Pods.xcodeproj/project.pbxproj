@@ -47,15 +47,15 @@
 		894589BDB9B9F6FD7F6848B5E1971A1B /* Pods-AppSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppSearch.release.xcconfig"; sourceTree = "<group>"; };
 		8A9D7A109269560BEDFB7688467DFDFB /* Pods-AppSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppSearch-dummy.m"; sourceTree = "<group>"; };
 		970CA42AF0A0AD82ABFF1598E8E010BA /* Pods-AppSearch-AppSearchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppSearch-AppSearchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A04C65E5834BBE41E6B38772FA8FD7C0 /* Pods-AppSearch-AppSearchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppSearch-AppSearchUITests-umbrella.h"; sourceTree = "<group>"; };
-		A6A134716AE9FA4566145C0BD3E4E936 /* Pods_AppSearch_AppSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppSearch_AppSearchUITests.framework; path = "Pods-AppSearch-AppSearchUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC82566B522EA059A2755733CEC401FC /* Pods_AppSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppSearch.framework; path = "Pods-AppSearch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A134716AE9FA4566145C0BD3E4E936 /* Pods_AppSearch_AppSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppSearch_AppSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC82566B522EA059A2755733CEC401FC /* Pods_AppSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25698B42650F1C363118295BB3979D6 /* Pods-AppSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B2C6011511BF8C38EA2BF6E062BC15C7 /* Pods-AppSearch-AppSearchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppSearch-AppSearchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BB7B1CFFCC7B23973D176C015AEE69B2 /* Pods-AppSearch-AppSearchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppSearch-AppSearchUITests.modulemap"; sourceTree = "<group>"; };
 		D154A34D6CBBF3A224E877EC4A9CD80A /* Pods-AppSearchTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppSearchTests-Info.plist"; sourceTree = "<group>"; };
-		D1C00874E372166DC040E650F12A6BCD /* Pods_AppSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppSearchTests.framework; path = "Pods-AppSearchTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C00874E372166DC040E650F12A6BCD /* Pods_AppSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA415C0CA26C778F02C71600EF3607A /* Pods-AppSearch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppSearch-acknowledgements.plist"; sourceTree = "<group>"; };
 		E8B8C8D0AF0032EFCFE9AB5BDE391F37 /* Pods-AppSearchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppSearchTests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -439,7 +439,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AppSearchTests/Pods-AppSearchTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,7 +538,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AppSearch-AppSearchUITests/Pods-AppSearch-AppSearchUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -576,7 +576,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AppSearch-AppSearchUITests/Pods-AppSearch-AppSearchUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -613,7 +613,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AppSearch/Pods-AppSearch-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -650,7 +650,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AppSearch/Pods-AppSearch-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -688,7 +688,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AppSearchTests/Pods-AppSearchTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

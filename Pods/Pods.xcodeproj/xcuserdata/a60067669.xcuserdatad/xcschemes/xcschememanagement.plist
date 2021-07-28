@@ -4,28 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AppSearch.xcscheme_^#shared#^_</key>
+		<key>Pods-AppSearch-AppSearchUITests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>EA3E6B4626073E8300B5DFDC</key>
+		<key>Pods-AppSearch.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>primary</key>
-			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
-		<key>EA3E6B5C26073E8500B5DFDC</key>
+		<key>Pods-AppSearchTests.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EA3E6B6726073E8500B5DFDC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>
